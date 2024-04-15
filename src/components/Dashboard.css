@@ -1,0 +1,21 @@
+/* Dashboard.css */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  /* position: relative; */
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.jobs-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(280px, 1fr));
+  padding: 1rem;
+  grid-gap: 1.3rem;
+  /* width: 75vw; */
+  justify-content: center;
+  align-items: center;
+}
